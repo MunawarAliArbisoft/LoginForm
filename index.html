@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="signupform" class="card" >
+        <h1>Sign Up</h1>
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+            
+            <input type="text" name="username" id="username" placeholder="Username"><br>
+
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+
+            <input type="password" id="password" name="password" placeholder="password"><br>
+            
+            <input type="submit" value="Sign Up" id="submitBtn">
+            <p>Already have account? <a href="#" class="linkBtn" value="login" >Login</a></p>
+        </form>
+    </div>
+    <div id="loginform" class="card">
+        <h1>Login</h1>
+        <form>
+            <input type="text" name="username" id="loginUsername" placeholder="Username"><br>
+
+            <input type="password" id="l`oginPassword" name="password" placeholder="password"><br>
+            
+            <input type="submit" value="Login" id="submitBtnLogin">
+            <p>Not have account? <a href="#" class="linkBtn" value="signup">Sign up</a></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
